@@ -8,27 +8,43 @@
       }  
       .info-box{
         display: grid;
-        place-items: center;
-        height: 500px;
+        align-items: center;
+        justify-content: center;
+        height: 480px;
       }
       .content{
         width:200px;
-        height: 350px;
+        height: 340px;
         background-color: white;
         border-radius: 10px;
       }
       .qr-image{
+        width: 200px;
+        height: 190px;
         display: grid;
         justify-content: center;
-        width: 200px;
-        height: 150px;
       }
       img{
         width:180px;
         margin-top: 10px;
         border-radius: 10px;
       }
-
+      .text{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 180px;
+        height: 160px;
+      }
+      p{
+        text-align: center;
+      }
+      .improve{
+        margin-bottom: 0;
+        font-weight: bold;
+      }
+      .scan{
+        font-size: 12px;
+      }
      </style>
     </head>
     <body>
@@ -36,6 +52,10 @@
       <div class="content">
         <div class="qr-image">
          <img src="image-qr-code.png">
+        </div>
+        <div class="text">
+          <p class="improve">Improve your front-end skills by building projects</p>
+          <p class="scan">Scan the QR code to visit Frontend Mentor and take your coding skills th the next level</p>
         </div>
       </div>
      </div>
